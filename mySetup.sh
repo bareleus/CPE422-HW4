@@ -1,6 +1,6 @@
 #!/bin/bash
-# myScript.sh takes no argument
-# ./myScript.sh to run script
+# mySetup.sh takes no argument
+# Example invocation: ./mySetup.sh
 
 # Set frequency of BB
 sudo cpufreq-set -f 600MHz
@@ -10,6 +10,7 @@ cpufreq-info
 # Create variable and assign value
 location=/home/debian
 # Display the value of the variable
+echo
 echo "The value of the location variable is" $location
 
 # Create variable that gets the number of items in the current working directory
