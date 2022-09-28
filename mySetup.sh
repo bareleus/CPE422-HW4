@@ -19,7 +19,7 @@ items=$(ls . |wc -l)
 echo "The number of items in the current working directory is" $items
 
 # Add directory to the variable PATH
-PATH=$PATH:$HOME/CPE422-HW4/
+PATH=$PATH:$HOME/phamhw4/
 # Export PATH to make it an enviroment variable
 export PATH
 
